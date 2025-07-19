@@ -1,0 +1,18 @@
+# --- Discord Bot Server Dependencies ---
+
+# Discord API library
+discord.py==2.3.2
+
+# Asynchronous HTTP server/client
+aiohttp==3.9.1
+
+# --- Client & Shared Dependencies ---
+
+# Used by the example client for HTTP requests
+requests==2.31.0
+
+# Handles loading of .env files
+python-dotenv==0.21.0
+
+# Used for encryption of API payloads
+cryptography==41.0.7
